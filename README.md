@@ -23,7 +23,7 @@ pip install mysql-connector-python
 
 ## Usage
 
-./theprovisioner.py  --host=<HOSTNAME> -u<USER> -P<PORT> -p=<PASSWORD> -d<SCHEMA> -t<TABLE> -r<ROWS> -c<CONCURRENCY>
+./theprovisioner.py  --host=\<HOSTNAME> -u\<USER> -P\<PORT> -p=\<PASSWORD> -d\<SCHEMA> -t\<TABLE> -r\<ROWS> -c\<CONCURRENCY>
 
 
 ## Contributing
