@@ -1,13 +1,13 @@
 # TheProvisioner
 
-TheProvisioner is a little Python tool useful to insert a MySQL table with a number of rows, using a configurable number of threads.
+TheProvisioner is a little multi-threading Python tool useful to insert a MySQL table with a number of rows, using a configurable number of threads.
 Columns will be set to random data.
 Strings will be initialised to random maximum data type length strings.
 
 
 ## Installation
 
-No installation needed
+No installation needed, just Python installed.
 
 
 ## Preparation
