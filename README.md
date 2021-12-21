@@ -7,7 +7,7 @@ Strings will be initialised to random maximum data type length strings.
 
 ## Installation
 
-No installation needed, just Python installed.
+No installation needed, just Python 3.6 installed.
 
 
 ## Preparation
