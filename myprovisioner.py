@@ -13,7 +13,7 @@ NOINSERT=["auto_increment", "VIRTUAL GENERATED", "STORED GENERATED"]
 
 def main(argv):
     signal.signal(signal.SIGINT, signal_handler)
-    parser = argparse.ArgumentParser(description='theprovisioner, fill tables with random data')
+    parser = argparse.ArgumentParser(description='myprovisioner, fill tables with random data')
     parser.add_argument('--host', default="127.0.0.1", help='Host (default: 127.0.0.1)')
     parser.add_argument('-P', '--port', type=int, default=3306, help='Port (default: 3306)')
     parser.add_argument('-u', '--user', required=True, help='User')
