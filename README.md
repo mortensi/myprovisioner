@@ -1,6 +1,6 @@
-# TheProvisioner
+# MyProvisioner
 
-TheProvisioner is a little multi-threading Python tool useful to insert a MySQL table with a number of rows, using a configurable number of threads.
+MyProvisioner is a little multi-threading Python tool useful to insert a MySQL table with a number of rows, using a configurable number of threads.
 Columns will be set to random data.
 Strings will be initialised to random maximum data type length strings.
 
@@ -23,7 +23,7 @@ pip install mysql-connector-python
 
 ## Usage
 
-./theprovisioner.py  --host=\<HOSTNAME> -u\<USER> -P\<PORT> -p=\<PASSWORD> -d\<SCHEMA> -t\<TABLE> -r\<ROWS> -c\<CONCURRENCY>
+./myprovisioner.py  --host=\<HOSTNAME> -u\<USER> -P\<PORT> -p=\<PASSWORD> -d\<SCHEMA> -t\<TABLE> -r\<ROWS> -c\<CONCURRENCY>
 
 
 ## Contributing
